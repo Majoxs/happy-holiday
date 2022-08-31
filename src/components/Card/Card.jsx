@@ -1,7 +1,8 @@
 import Container from '../Container/Container';
 import style from './Card.module.css';
 import Felicitation from './Felicitation/Felicitation';
-import Image from './Image/Image';
+import ImageCard from './ImageCard/ImageCard';
+import CardBG from '../../img/card-bg.jpg';
 
 
 const Card = () => (
@@ -9,7 +10,7 @@ const Card = () => (
     <div className={style.card}>
       <div className={style.wrapper}>
         <div className={style.image}>
-          <Image />
+          <ImageCard img={CardBG} />
           <Felicitation />
         </div>
       </div>

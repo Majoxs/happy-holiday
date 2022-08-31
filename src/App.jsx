@@ -8,8 +8,6 @@ const wrapper = {
   height: '100vh',
 };
 
-const style = {};
-
 const App = () => {
   return (
     <div style={wrapper}>
